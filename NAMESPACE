@@ -1,0 +1,9 @@
+
+# manual entries for Rcpp
+# exportPattern("^[[:alpha:]]+") ... this causes errors ... therefore add explicit exports
+importFrom(Rcpp, evalCpp)
+useDynLib(rwirelesscom2)
+export(rcosine,sinc,sqrtrcosine)
+
+# manual exports
+
