@@ -13,3 +13,7 @@ correlateCpp <- function(a, b) {
     .Call('rwirelesscom2_correlateCpp', PACKAGE = 'rwirelesscom2', a, b)
 }
 
+sinc <- function(x) {
+    .Call('rwirelesscom2_sinc', PACKAGE = 'rwirelesscom2', x)
+}
+
